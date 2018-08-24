@@ -61,7 +61,9 @@ ALTER TABLE table_name
 
 ## common commands
 
-show all data bases
+show all data bases,
+if you are logged in as the root user you will show all data bases in this system.
+but if you loogged using other user, you will see all data bases that s/he has privilages to.
 
 ```SQL
 SHOW DATABASES;
