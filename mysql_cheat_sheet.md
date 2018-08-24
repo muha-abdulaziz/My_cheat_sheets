@@ -38,11 +38,12 @@ If you want to support **emojis** use **utf16**.
 If you want to create a new database with a specific character set
 
 ```SQL
-CREATE DATABASE czech_slovak_names 
+CREATE DATABASE db_name
   CHARACTER SET = 'charset_name'
   [COLLATE = 'collation_name'];
 ```
 
+- change **db_name** with the data base name
 - charset_name (like utf8)
 - COLLATE is optional
 
